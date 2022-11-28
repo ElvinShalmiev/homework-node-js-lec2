@@ -1,0 +1,19 @@
+{
+  "name": "lec2serverHM",
+  "version": "1.0.0",
+  "description": "Lec 1",
+  "main": "indexHM.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo no test",
+    "start": "node --watch indexHM.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "uuid": "^9.0.0"
+  }
+}

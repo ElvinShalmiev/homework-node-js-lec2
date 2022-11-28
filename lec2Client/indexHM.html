@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+    <title>homeworkElvin</title>
+</head>
+
+<body>
+    <div class="container">
+
+        <h2 class="text-center bg-info text-light rounded mt-2">Custom List</h2>
+        <p class="text-center bg-success text-light rounded mt-2">Add product to your card</p>
+
+        <!-- input a product: -->
+        <div class="d-flex border-1 p-3 border rounded">
+            <input placeholder="Enter product" class="p-2 flex-grow-1 me-2" type="text" id="input-product">
+            <button id="save-product" class="btn btn-primary">
+                Add To Card
+            </button>
+        </div>
+
+        <ul class="list-group mt-4" id="products-list"></ul>
+    </div>
+    <script type="module" src="js/appHM.js"></script>
+</body>
+
+</html>
